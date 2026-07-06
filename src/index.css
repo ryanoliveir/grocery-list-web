@@ -34,3 +34,17 @@
   --text-link--font-weight: 500;
 
 }
+
+@custom-variant dark (&:is(.dark *));
+
+.dark {
+  --color-background-primary: #1a0a0f;
+  --color-background-secondary: #2a1018;
+  --color-content-primary: #f9e6ee;
+  --color-content-secondary: #e8b4cc;
+  --color-content-tertiary: #9c6b7e;
+  --color-border-primary: #4a1e30;
+  --color-border-hover: #6b2d45;
+  --color-brand: #e84fa0;
+  --color-brand-hover: #ca3884;
+}

@@ -14,7 +14,7 @@ function App() {
             <span>Voltar</span>
           </div>
 
-          <h1 className="text-title text-content-primary">Compras da semana</h1>
+          <h1 className="text-title text-content-primary">Tarefas</h1>
         </div>
 
         <div className="w-full flex items-center justify-center gap-4 mt-11  flex-col sm:flex sm:flex-row">
